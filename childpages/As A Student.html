@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>learning html</title>
+    <title>childpage template webpage</title>
 
 
 
@@ -25,33 +25,101 @@
 
     <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
     <!-- Already specified in the charset above-->
-  </head>
-  <body>
-    <!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
-    <header><h1>As a student</h1></header>
-      <nav><h1>Navigation</h1></nav>
-      <aside><p>This is the aside space.</p></aside>
-      <section>
-        <h3>Section 1</h3>
-        <article>
-          <p>This is article 1 in section 1.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 1.</p>
-        </article>
-      </section>
-      <section>
-      <h3>Section 2</h3>
-        <article>
-          <p>This is article 1 in section 2.</p>
-        </article>
-        <article>
-          <p>This is article 2 in section 2.</p>
-        </article>
-      </section>
-  </body>
 
-  <footer>
+    <style>
+    * {
+        box-sizing: border-box;
+      }
+
+      /* div {border: thin dotted red;} */
+
+      .header {
+        /* border: 1px solid red; */
+        padding: 15px;
+      }
+
+      .menu {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .main {
+        width: 60%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .aside {
+        width: 20%;
+        float: left;
+        padding: 15px;
+        /* border: 1px solid red; */
+      }
+
+      .footer {
+        border: 1px solid green;
+        padding: 15px;
+     }
+      </style>
+    </head>
+    <body style="background-color: red">
+    <!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
+    <div class="header">
+    <header><h1 style="font-size:8vw">Flex box template</h1></header>
+  </div>
+
+    <div class="menu", style="background-color: blue">
+      <nav><h1 style="font-color: yellow">my setup</h1></nav>
+      <br>
+      <br>
+      <img src="../images/student2.jpg" alt="hello there" title="rezania" style="max-width:100%;height:auto;">
+          <!-- Width 1300, height 606 but will size bigger if window size is bigger-->
+        <br>
+        <br>
+
+
+
+
+    </div>
+
+
+      <div class="main">
+        <h3>Hello there are sneak peeks the question is do u have the wit</h3>
+        <article>
+          <p>hello welcome to three columns in this website there is a leak to another have fuuuun</p>
+          <ol style="font-size:1vw" type="A">
+            <li style="font-size: 1vw"> to return to the home page: <a href="..\index.html" target="_blank">Click Here</a>
+              <br>
+              <br>
+              <br>
+      </div>
+
+    <div class="aside", style="background-color: red">
+    <aside><p>more of my setup</p></aside>
+    <br>
+    <br>
+    <br>
+    <img src="../images/student.jpg" alt="hello there" title="rezania" style="max-width:100%;height:auto;">
+        <!-- Width 1300, height 606 but will size bigger if window size is bigger-->
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+    </div>
+
+    </body>
+
+    <footer>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="footer">
     <blockquote cite="https://www.goalcast.com/2017/03/20/top-20-inspiring-mahatma-gandhi-quotes">
       <!-- Date Accessed 20201120-->
     </blockquote>
@@ -59,7 +127,7 @@
       <em><a href="https://www.goalcast.com/2017/03/20/top-20-inspiring-mahatma-gandhi-quotes">
        - mahatma gandhi</a>
      </em>
-   </p>
-   <p>&copy Kurosh Rezania powered by Koolaid 97 in Github</p>
-
-  <footer>
+    </p>
+    <p>&copy Kurosh Rezania powered by Koolaid 97 in Github</p>
+  </div>
+    <footer>
